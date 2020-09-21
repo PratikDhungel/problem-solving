@@ -45,6 +45,7 @@ function triangle(row) {
     }
     // console.log('Updated row', updatedRow);
     row = updatedRow;
+    return row[0];
   }
   // console.log(row);
 }
